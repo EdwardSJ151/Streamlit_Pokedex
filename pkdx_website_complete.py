@@ -19,7 +19,7 @@ menu = option_menu(
 if menu == 'Dados dos Pokémons':
     # Leitura e formatação do dataset
     # tabela2 = pd.read_csv(r'C:\Users\dival\Downloads\pokemon_dataset\pkdx_2.csv')
-    tabela2 = pd.read_csv(r'pokemon_dataset\pkdx_2.csv')
+    tabela2 = pd.read_csv('pokemon_dataset/pkdx_2.csv')
     tabela2 = tabela2.drop(['Unnamed: 0'], axis=1)
     tabela2_num = tabela2.groupby('pokedex_number').first()
     lista2 = tabela2_num.values.tolist()
@@ -174,11 +174,11 @@ if menu == 'Dados dos Pokémons':
                          'Ele também é o único com uma voz que não é composto por barulhos eletrônicos.')
                 pikacry = st.slider('Use o slider para escolher uma voz: ', 1, 97)
                 # cry = open(r'C:\Users\dival\Downloads\pokemon_cries\pikachu' + '//' + f'{pikacry}.wav', 'rb')
-                cry = open(r'pokemon_cries\pikachu' + '//' + f'{pikacry}.wav', 'rb')
+                cry = open('pokemon_cries/pikachu' + '//' + f'{pikacry}.wav', 'rb')
                 st.audio(cry)
             else:
                 # cry = open(r'C:\Users\dival\Downloads\pokemon_cries\cries_pokedex' + '//' + f'{pokemon}.wav', 'rb')
-                cry = open(r'pokemon_cries\cries_pokedex' + '//' + f'{pokemon}.wav', 'rb')
+                cry = open('pokemon_cries/cries_pokedex' + '//' + f'{pokemon}.wav', 'rb')
                 st.audio(cry)
             st.write('***')
 
