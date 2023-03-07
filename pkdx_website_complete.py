@@ -335,11 +335,11 @@ if menu == 'Dados dos Pokémons':
                 weakness_append *= 0
             col1battle, col2battle = st.columns(2)
             with col1battle:
-                st.markdown("""##### Dano Super Efetivo""")
+                st.markdown("""###### Recebe Dano Super Efetivo de:""")
                 weakness_pokemon = pd.DataFrame(data=weakness, columns=['× DANO'], index=weakness_names)
                 st.dataframe(weakness_pokemon)
             with col2battle:
-                st.markdown("""##### Valores de Batalha Base""")
+                st.markdown("""###### Valores de Batalha Base""")
                 stats = [f'HP : {tabela2_num[pokemon - 1][16]}', f'Ataque : {tabela2_num[pokemon - 1][17]}',
                          f'Defesa : {tabela2_num[pokemon - 1][18]}', f'Ataque Especial : {tabela2_num[pokemon - 1][19]}',
                          f'Defesa Especial : {tabela2_num[pokemon - 1][20]}',
@@ -816,7 +816,7 @@ if menu == 'Dados dos Pokémons':
                 st.subheader('- Não tem dados dos sprites dos Pokémons da oitava geração.')
 
 if menu == 'Dados dos Ataques':
-    tabelamoves = pd.read_csv(r'C:\Users\dival\Downloads\pokemon_dataset\All_Moves.csv')
+    tabelamoves = pd.read_csv('C:/Users/dival/Downloads/pokemon_dataset/All_Moves.csv')
     st.sidebar.title('Filtragem de Ataques')
     filtragem = st.sidebar.checkbox('Clique para pesquisar ataques específicos.')
     # Pesquisando por um ataque espécifico
