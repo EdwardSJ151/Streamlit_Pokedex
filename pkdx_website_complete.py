@@ -816,7 +816,7 @@ if menu == 'Dados dos Pokémons':
                 st.subheader('- Não tem dados dos sprites dos Pokémons da oitava geração.')
 
 if menu == 'Dados dos Ataques':
-    tabelamoves = pd.read_csv('C:/Users/dival/Downloads/pokemon_dataset/All_Moves.csv')
+    tabelamoves = pd.read_csv('pokemon_dataset/All_Moves.csv')
     st.sidebar.title('Filtragem de Ataques')
     filtragem = st.sidebar.checkbox('Clique para pesquisar ataques específicos.')
     # Pesquisando por um ataque espécifico
