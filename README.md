@@ -7,6 +7,7 @@
   This webapp was my introduction to programming and python. I wrote the code in my first semester of college.
   You can access the cloud version of the webapp through this link:
   
+  > https://edwardsj151-streamlit-pokedex-pkdx-website-complete-ehp9yc.streamlit.app/
   
   The webapp mixes english and the portuguese language, because the data I used was ripped from the game in english, but the project was shown to a brazilian audience.
   
