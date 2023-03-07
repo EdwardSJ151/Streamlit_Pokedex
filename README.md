@@ -2,7 +2,7 @@
 <br>
 
 ## Overview
-  This is a Pokédex webapp made in Streamlit, with a wealth of features which outshines any of the in-game Pokédexes in any of the Pokémon games
+  This is a Pokédex webapp made in Streamlit, with a wealth of features which outshines any of the in-game Pokédexes in any of the Pokémon games.
   
   This webapp was my introduction to programming and python. I wrote the code in my first semester of college.
   You can access the cloud version of the webapp through this link:
@@ -30,11 +30,11 @@
  <br>
  
 ## Local Webapp Setup
-* Use the Git Clone command, if you don't know how, refer to this tutorial by GitKraken. Make sure you have all of the libraries needed to run. You can double check them in requirments
+* Use the Git Clone command, if you don't know how, refer to this tutorial by GitKraken. Make sure you have all of the libraries needed to run. You can double check them in requirments.
 
 https://www.youtube.com/watch?v=aHMPn57ZmJo
 
-* Run the "main.py" file
+* Run the "main.py" file.
 * The terminal will give you a command. (it should look like "streamlit run <directory>") Copy and Paste it into your CMD and run it.
 * The app should display on your local host.
 <br>
