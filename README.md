@@ -31,7 +31,9 @@
  
 ## Local Webapp Setup
 * Use the Git Clone command, if you don't know how, refer to this tutorial by GitKraken. Make sure you have all of the libraries needed to run. You can double check them in requirments
+
 https://www.youtube.com/watch?v=aHMPn57ZmJo
+
 * Run the "main.py" file
 * The terminal will give you a command. (it should look like "streamlit run <directory>") Copy and Paste it into your CMD and run it.
 * The app should display on your local host.
